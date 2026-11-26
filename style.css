@@ -216,3 +216,6 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .kt{text-align:right;flex:none}
 .kt b{display:block;font:600 24px/1 Fraunces,Georgia,serif;white-space:nowrap}
 .kt span{display:block;font-size:13px;color:var(--mute);margin-top:3px}
+.eq{font:600 clamp(20px,2.2vw,24px)/1.2 Fraunces,Georgia,serif;margin:12px 0 4px}
+.eqsub{font-size:14px;color:var(--mute);margin:0 0 6px}
+.eq .nw{white-space:nowrap}.eq{font-size:21px}
