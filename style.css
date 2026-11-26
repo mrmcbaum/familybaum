@@ -206,3 +206,9 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .cp figcaption .amp{display:block!important;font-family:Fraunces,Georgia,serif;font-style:italic;font-weight:500;font-size:22px;line-height:1;margin:1px 0 3px;color:#5b2a42}
 .g1 .cp figcaption .amp{font-size:28px}
 @media(max-width:760px){.g3 .cp figcaption .amp{font-size:18px}}
+.kid .dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px;vertical-align:1px}
+.uniq .row .nm small{display:block;font-weight:400;color:var(--mute);font-size:13px}
+.uniq .row{grid-template-columns:10em minmax(0,1fr) 5em}
+.testcall{border-left:6px solid var(--plum);padding:4px 0 4px 22px;max-width:760px}
+.testcall p{font-size:18px}
+@media(max-width:600px){.uniq .row{grid-template-columns:7.5em minmax(0,1fr) 4.4em}}
