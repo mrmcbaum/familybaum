@@ -202,3 +202,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .ftree{justify-items:center;margin-left:auto;margin-right:auto;max-width:1240px}
 .slot{justify-content:center;width:100%}
 .cp .yy{white-space:nowrap}
+/* fancy ampersand between husband and wife */
+.cp figcaption .amp{display:block!important;font-family:Fraunces,Georgia,serif;font-style:italic;font-weight:500;font-size:22px;line-height:1;margin:1px 0 3px;color:#5b2a42}
+.g1 .cp figcaption .amp{font-size:28px}
+@media(max-width:760px){.g3 .cp figcaption .amp{font-size:18px}}
