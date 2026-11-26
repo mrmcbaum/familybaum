@@ -284,3 +284,9 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .kidsphoto{max-width:760px;margin:0 0 26px}
 .kidsphoto figcaption small{display:block;font:400 15px/1.4 "Source Sans 3",sans-serif;color:#55695b;margin-top:4px}
 .pa figcaption small{display:block;font:400 14px/1.4 "Source Sans 3",sans-serif;color:#55695b;margin-top:4px}
+/* mysteries: dull highlighted yellow */
+.wall{background:#efe2a2;border:0;border-left:4px solid #b39432;color:#173d2a}
+.wall strong{color:#6b5512}
+.mysteries .card{background:#f6eec8;border-color:#e2d18a}
+.walls .side{color:#6b5512}
+.fannote .bw{border:2px solid #b39432;background:#efe2a2}
