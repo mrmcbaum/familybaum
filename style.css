@@ -219,3 +219,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .eq{font:600 clamp(20px,2.2vw,24px)/1.2 Fraunces,Georgia,serif;margin:12px 0 4px}
 .eqsub{font-size:14px;color:var(--mute);margin:0 0 6px}
 .eq .nw{white-space:nowrap}.eq{font-size:21px}
+.rbh{margin:6px 0 10px;font-size:18px}
+.rebuild{display:grid;grid-template-columns:minmax(0,1fr) 4em;gap:14px;align-items:center}
+.track.big{height:44px}
+.priv .key{margin-bottom:22px}
