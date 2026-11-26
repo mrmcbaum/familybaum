@@ -306,3 +306,4 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .famp{font-family:Fraunces,Georgia,serif;font-style:italic;font-weight:500;font-size:1.3em;color:var(--moss);margin-right:2px;line-height:1}
 .married{text-align:center}
 .buried{text-align:center;margin:6px 0 0;color:var(--mute);font-size:16px}
+.buried{font:600 18px/1.4 Fraunces,Georgia,serif;color:var(--moss);margin:4px 0 0}
