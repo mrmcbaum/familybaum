@@ -291,3 +291,5 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .walls .side{color:#6b5512}
 .fannote .bw{border:2px solid #b39432;background:#efe2a2}
 .jk .dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px;vertical-align:1px}
+.grouplab{margin:0 0 4px;font-weight:700;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.grouplab i{display:inline-block;width:14px;height:14px;border-radius:3px}
