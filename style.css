@@ -293,3 +293,4 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .jk .dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px;vertical-align:1px}
 .grouplab{margin:0 0 4px;font-weight:700;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:8px}
 .grouplab i{display:inline-block;width:14px;height:14px;border-radius:3px}
+.jk .kidpic{width:96px;height:96px;border-radius:50%;object-fit:cover;display:block;margin:2px 0 12px;border:3px solid #fff;box-shadow:0 2px 8px rgba(20,48,31,.18)}
