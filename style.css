@@ -239,3 +239,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 @media(max-width:640px){.branches{grid-template-columns:minmax(0,1fr)!important}}
 .palbum{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:760px){.palbum{grid-template-columns:minmax(0,1fr)}}
+.bar .wrap.withpic{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:24px 48px;align-items:center}
+.bar .wrap.withpic .pa.big{max-width:420px;width:100%;margin:0;justify-self:end}
+.bar .wrap.withpic .pa.big figcaption{font-size:14px}
+@media(max-width:760px){.bar .wrap.withpic{grid-template-columns:minmax(0,1fr)}.bar .wrap.withpic .pa.big{justify-self:center}}

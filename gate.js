@@ -19,6 +19,8 @@ async function tryKey(raw) {
       const pt = await S.decrypt({ name: 'AES-GCM', iv: u8(B.iv) }, k, u8(B.c));
       const m = document.getElementById('site');
       m.innerHTML = new TextDecoder().decode(pt); m.hidden = false;
+      const fig = m.querySelector('.gabanner figure'), bar = document.querySelector('.bar .wrap');
+      if (fig && bar) { bar.classList.add('withpic'); bar.appendChild(fig); m.querySelector('.gabanner').remove(); }
       document.getElementById('gate').hidden = true;
       return true;
     } catch (_) {}
