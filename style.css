@@ -212,3 +212,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .testcall{border-left:6px solid var(--plum);padding:4px 0 4px 22px;max-width:760px}
 .testcall p{font-size:18px}
 @media(max-width:600px){.uniq .row{grid-template-columns:7.5em minmax(0,1fr) 4.4em}}
+.kh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.kt{text-align:right;flex:none}
+.kt b{display:block;font:600 24px/1 Fraunces,Georgia,serif;white-space:nowrap}
+.kt span{display:block;font-size:13px;color:var(--mute);margin-top:3px}
