@@ -307,3 +307,13 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .married{text-align:center}
 .buried{text-align:center;margin:6px 0 0;color:var(--mute);font-size:16px}
 .buried{font:600 18px/1.4 Fraunces,Georgia,serif;color:var(--moss);margin:4px 0 0}
+/* link cards: photo album, news, documents */
+.lcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:900px;margin:26px auto 0}
+.lcard{display:flex;flex-direction:column;align-items:center;gap:8px;padding:20px 16px;border-radius:12px;background:var(--leaf);border:1px solid var(--line);color:var(--ink);text-decoration:none;text-align:center;transition:transform .15s ease,box-shadow .15s ease}
+.lcard[href]:hover,.lcard[href]:focus-visible{transform:translateY(-3px);box-shadow:0 0 0 2px var(--moss),0 14px 26px -16px #14301f88;outline:none}
+.lic svg{width:40px;height:40px;fill:none;stroke:var(--moss);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.lt{font:600 19px/1.2 Fraunces,Georgia,serif}
+.ls{font-size:14px;color:var(--mute)}
+.lcard.soon{cursor:default}
+@media(max-width:600px){.lcards{grid-template-columns:minmax(0,1fr)}.lcard{flex-direction:row;justify-content:flex-start;text-align:left;padding:14px 16px}.lcard .ls{margin-left:auto}}
+@media(prefers-reduced-motion:reduce){.lcard{transition:none}}
