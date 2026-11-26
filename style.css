@@ -317,3 +317,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .lcard.soon{cursor:default}
 @media(max-width:600px){.lcards{grid-template-columns:minmax(0,1fr)}.lcard{flex-direction:row;justify-content:flex-start;text-align:left;padding:14px 16px}.lcard .ls{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){.lcard{transition:none}}
+/* centred section intros */
+#jd-walls h2,#jd-children h2{text-align:center}
+#jd-walls .lead,#jd-children .lead{text-align:center;margin-left:auto;margin-right:auto}
+#jd-children .kidsphoto{margin-left:auto;margin-right:auto}
