@@ -189,7 +189,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .cplink .cp{transition:transform .15s ease,box-shadow .15s ease}
 .cplink:hover .cp,.cplink:focus-visible .cp{transform:translateY(-3px);box-shadow:0 0 0 3px #173d2a,0 18px 30px -18px #173d2aaa}
 .cplink:focus-visible{outline:none}
-.cplink .cp figcaption::after{content:"Open family page →";display:block;margin-top:6px;font-weight:700;color:#2e6b47;font-size:14px}
+.cplink .cp figcaption::after{content:"Open Private Family Page →";display:block;margin-top:6px;font-weight:700;color:#2e6b47;font-size:14px}
 @media(prefers-reduced-motion:reduce){.cplink .cp{transition:none}}
 /* captions: name (years), one person per line, everywhere */
 .cp figcaption .pp,.cp figcaption .pp{display:block!important;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:15px;line-height:1.3}
