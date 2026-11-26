@@ -260,3 +260,16 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .cp figcaption,.frame figcaption,.pa figcaption{color:#173d2a}
 .cp figcaption .amp{color:var(--moss)}
 .cplink .cp figcaption::after{color:var(--moss)}
+/* couple pages */
+.couple2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.couple2 .dates,.walls .dates{color:var(--mute);font-size:15px}
+.married{font:600 18px/1.4 Fraunces,Georgia,serif;margin:18px 0 0;color:var(--moss)}
+.jdkids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.jk .who{font:600 19px/1.2 Fraunces,Georgia,serif}
+.jk .yrs{font-size:14px;color:var(--mute)}
+.jk.tested{border-top:6px solid var(--moss)}
+.jk .open{color:var(--mute);font-style:italic}
+.walls{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));gap:16px}
+.walls .side{font-size:13px;font-weight:700;color:var(--moss);margin-bottom:6px}
+@media(max-width:900px){.jdkids{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.couple2,.jdkids{grid-template-columns:minmax(0,1fr)}}
