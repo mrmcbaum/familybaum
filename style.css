@@ -127,3 +127,26 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .mast .brand{font:600 22px/1.2 Fraunces,Georgia,serif;color:#f2c14e;text-decoration:none;letter-spacing:-.01em}
 .mast .brand:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .mast .tag{font-size:15px;color:#fdf3d8}
+/* photo family tree */
+.hero .wrap{display:block}
+.herotext{max-width:860px}
+.hero h1{font-size:clamp(40px,6vw,68px)}
+.heronote{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:8px 40px;align-items:end;margin-top:34px}
+.heronote p{margin:0}
+.ftree{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:clamp(10px,1.6vw,22px);row-gap:46px;margin-top:22px}
+.slot{position:relative;display:flex;justify-content:center;min-width:0}
+.g3{grid-row:1}.g2{grid-row:2;grid-column:span 2}.g1{grid-row:3;grid-column:1/-1}
+.g2::before,.g1::before{content:"";position:absolute;left:25%;right:25%;top:-36px;height:18px;border:2px solid #3a1f2b66;border-top:0;border-radius:0 0 8px 8px}
+.g2::after,.g1::after{content:"";position:absolute;left:50%;top:-18px;height:18px;border-left:2px solid #3a1f2b66}
+.cp{margin:0;background:#fffaf0;padding:10px 10px 12px;border-radius:6px;box-shadow:0 2px 0 #00000012,0 14px 28px -18px #3a1f2b99;width:100%}
+.g2 .cp{width:min(100%,360px)}.g1 .cp{width:min(100%,420px)}
+.cp .ph{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:6px}
+.cp img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 25%;border-radius:3px;background:#d9c9b0}
+.cp .ph.two img{aspect-ratio:3/4}
+.cp figcaption{color:#3a1f2b;margin-top:9px;font-size:14px;line-height:1.35;text-align:center}
+.cp figcaption b{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:15px}
+.g1 .cp figcaption,.g1 .cp figcaption b{font-size:17px}
+.cp .yrs{white-space:nowrap;color:#6e5a62}
+@media(max-width:760px){.ftree{grid-template-columns:minmax(0,1fr);row-gap:18px}.slot{grid-column:auto!important;grid-row:auto!important}.g1{order:1}.g2{order:2}.g3{order:3}.g2::before,.g1::before,.g2::after,.g1::after{display:none}.cp,.g2 .cp,.g1 .cp{width:min(100%,420px)}.heronote{grid-template-columns:minmax(0,1fr)}}
+.slot{align-items:flex-start}
+.g3 .cp .ph:not(.two) img{aspect-ratio:3/2}
