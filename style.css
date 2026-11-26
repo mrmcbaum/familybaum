@@ -122,3 +122,8 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .out{margin-left:auto}
 .linkbtn{background:none;border:0;color:inherit;font:inherit;text-decoration:underline;cursor:pointer;min-height:44px}
 .key+.figs{margin-top:26px}
+.mast{background:#3a1f2b;color:#fdf3d8;padding:10px max(5vw,16px)}
+.mast .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px}
+.mast .brand{font:600 22px/1.2 Fraunces,Georgia,serif;color:#f2c14e;text-decoration:none;letter-spacing:-.01em}
+.mast .brand:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.mast .tag{font-size:15px;color:#fdf3d8}
