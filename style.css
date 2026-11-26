@@ -281,3 +281,5 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .fannote .bw{flex:none;width:28px;height:18px;border:2.5px dashed #8a5a2b;background:repeating-linear-gradient(0deg,#f6efe1 0 6px,#e6d3b4 6px 7px);border-radius:3px;margin-top:2px}
 .fanhint{display:none;font-size:14px;color:#55695b;margin:0 0 6px}
 @media(max-width:700px){.fanscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.fanscroll .fan{width:760px;max-width:none}.fanhint{display:block}}
+.kidsphoto{max-width:760px;margin:0 0 26px}
+.kidsphoto figcaption small{display:block;font:400 15px/1.4 "Source Sans 3",sans-serif;color:#55695b;margin-top:4px}
