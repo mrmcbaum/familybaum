@@ -332,3 +332,13 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 @media(max-width:900px){.galgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.galgrid{grid-template-columns:minmax(0,1fr)}.galgrid .gp.wide{grid-column:auto}}
 @media(min-width:901px){.galgrid .gp.wide:last-child{grid-column:2/span 2}}
+/* news + documents sub-pages */
+.clips{display:grid;gap:22px;max-width:1040px}
+.clip{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:24px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.clip .cimg{display:block;background:#fbfcf7;padding:8px;border-radius:6px;box-shadow:0 2px 0 #00000010,0 10px 22px -16px #14301f88}
+.clip .cimg img{display:block;width:100%;height:auto;max-height:520px;object-fit:contain;object-position:top}
+.clip .cimg:focus-visible{outline:3px solid var(--moss);outline-offset:2px}
+.csrc{margin:0 0 4px;font-size:14px;font-weight:700;color:var(--moss)}
+.clip h3{font-size:22px;margin:0 0 10px}
+.clip .ctext p:not(.csrc){margin:0 0 10px}
+@media(max-width:700px){.clip{grid-template-columns:minmax(0,1fr)}}
