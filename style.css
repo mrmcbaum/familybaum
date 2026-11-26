@@ -274,3 +274,10 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 @media(max-width:900px){.jdkids{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.couple2,.jdkids{grid-template-columns:minmax(0,1fr)}}
 .cplink.open .cp figcaption::after{content:"Open Family Page →"}
+.fancard{background:#fbfcf7;border:1px solid var(--line);border-radius:12px;padding:clamp(10px,2vw,24px);margin:6px 0 26px;color:#173d2a;font-family:"Source Sans 3",sans-serif}
+.fan{display:block;width:100%;height:auto;max-width:1000px;margin:0 auto}
+.fan text{fill:#173d2a;font-family:"Source Sans 3",system-ui,sans-serif}
+.fannote{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#55695b;margin:10px 0 0}
+.fannote .bw{flex:none;width:28px;height:18px;border:2.5px dashed #8a5a2b;background:repeating-linear-gradient(0deg,#f6efe1 0 6px,#e6d3b4 6px 7px);border-radius:3px;margin-top:2px}
+.fanhint{display:none;font-size:14px;color:#55695b;margin:0 0 6px}
+@media(max-width:700px){.fanscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.fanscroll .fan{width:760px;max-width:none}.fanhint{display:block}}
