@@ -184,3 +184,10 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .g2.p2 .cp{position:relative}
 .g2.p2 .cp::after{content:"";position:absolute;left:50%;bottom:-18px;height:18px;border-left:2px solid #3a1f2b66}
 }
+.clickhint{font-weight:600;margin:4px 0 0}
+.cplink{display:flex;justify-content:center;width:100%;text-decoration:none;color:inherit;border-radius:8px}
+.cplink .cp{transition:transform .15s ease,box-shadow .15s ease}
+.cplink:hover .cp,.cplink:focus-visible .cp{transform:translateY(-3px);box-shadow:0 0 0 3px #3a1f2b,0 18px 30px -18px #3a1f2baa}
+.cplink:focus-visible{outline:none}
+.cplink .cp figcaption::after{content:"Open family page →";display:block;margin-top:6px;font-weight:700;color:#5b2a42;font-size:14px}
+@media(prefers-reduced-motion:reduce){.cplink .cp{transition:none}}
