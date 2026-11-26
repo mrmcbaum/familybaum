@@ -321,3 +321,14 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 #jd-walls h2,#jd-children h2{text-align:center}
 #jd-walls .lead,#jd-children .lead{text-align:center;margin-left:auto;margin-right:auto}
 #jd-children .kidsphoto{margin-left:auto;margin-right:auto}
+/* photo album sub-page */
+.back{margin:0 0 20px}.back a{color:var(--moss);font-weight:700;text-decoration:none}.back a:hover{text-decoration:underline}
+.galgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}
+.galgrid .gp.wide{grid-column:span 2}
+.galgrid .gp img{width:100%;height:auto;display:block}
+.galgrid .gp a{display:block;border-radius:3px;overflow:hidden}
+.galgrid .gp a:focus-visible{outline:3px solid var(--moss);outline-offset:2px}
+.galgrid .gp figcaption{text-align:left;font-size:16px}
+@media(max-width:900px){.galgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.galgrid{grid-template-columns:minmax(0,1fr)}.galgrid .gp.wide{grid-column:auto}}
+@media(min-width:901px){.galgrid .gp.wide:last-child{grid-column:2/span 2}}
