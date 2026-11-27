@@ -406,3 +406,6 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .txt th{background:#e6efe0;font-size:13px}
 .txn{font-size:14px;color:#55695b;margin:8px 0 0}
 @media(max-width:560px){.txl{grid-template-columns:1fr}.txl dt{margin-top:6px}}
+.sendin{text-align:center;margin:18px auto 0;font-size:17px;max-width:640px}
+.sendin a{font-weight:700;color:var(--moss)}
+.sendin small{display:block;font-size:14px;color:#55695b;margin-top:4px}
