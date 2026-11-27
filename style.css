@@ -409,3 +409,20 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .sendin{text-align:center;margin:18px auto 0;font-size:17px;max-width:640px}
 .sendin a{font-weight:700;color:var(--moss)}
 .sendin small{display:block;font-size:14px;color:#55695b;margin-top:4px}
+/* centred spouse cards + wedding / marriage / grave row */
+.couple2 .card{text-align:center}
+.mbrow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr) minmax(0,1fr);gap:20px;align-items:center;margin:22px 0 0}
+.mbrow figure{margin:0;text-align:center}
+.mbrow figure img{display:block;width:100%;max-height:260px;object-fit:contain;border-radius:8px;background:#fbfcf7;box-shadow:0 6px 18px -10px #14301f66}
+.mbrow figcaption{font:600 15px/1.35 Fraunces,Georgia,serif;color:var(--ink);margin-top:8px}
+.mbrow figcaption small{display:block;font:400 13px/1.4 "Source Sans 3",sans-serif;color:var(--mute);margin-top:2px}
+.mbrow .mbinfo{text-align:center;padding:18px 10px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.mbrow .mbinfo .married{margin:0}
+.mbempty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:150px;border:2px dashed var(--line);border-radius:10px;padding:14px;color:var(--mute);font-size:14px;text-align:center}
+.mbempty b{font:600 16px/1.3 Fraunces,Georgia,serif;color:var(--ink)}
+.mbempty a,.fag a{color:var(--moss);font-weight:600}
+.fag{font-size:14px;margin:6px 0 0;color:var(--mute)}
+@media(max-width:760px){.mbrow{grid-template-columns:minmax(0,1fr)}.mbrow .mbinfo{order:-1}}
+/* family page link in the descendants tree */
+.dfam{margin-left:10px;font-size:13px;font-weight:700;color:var(--moss);text-decoration:none;border:1px solid var(--moss);border-radius:999px;padding:1px 10px;white-space:nowrap}
+.dfam:hover{background:var(--moss);color:#fff}
