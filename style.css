@@ -388,3 +388,21 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .mystoggle>summary::after{content:" \25BE"}
 .mystoggle[open]>summary::after{content:" \25B4"}
 .mystoggle[open]>summary{margin-bottom:16px}
+/* PDF + transcription buttons on news and documents */
+.cbtns{margin-top:12px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.cbtn{display:inline-block;font-weight:700;font-size:15px;color:#fff;background:var(--moss);padding:8px 14px;border-radius:8px;text-decoration:none}
+.cbtn:hover{filter:brightness(1.1)}
+.tx{width:100%}
+.tx>summary{cursor:pointer;display:inline-block;font-weight:700;font-size:15px;color:var(--moss);border:1.5px solid var(--moss);padding:7px 13px;border-radius:8px;list-style:none}
+.tx>summary::-webkit-details-marker{display:none}
+.tx>summary::after{content:" \25BE"}.tx[open]>summary::after{content:" \25B4"}
+.tx[open]>summary{margin-bottom:10px}
+.txl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:0;font-size:15px;background:#fbfcf7;border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.txl dt{font-weight:700;color:var(--moss)}.txl dd{margin:0}
+.txh{font-weight:700;font-size:14px;color:var(--moss);margin:0 0 6px}
+.txs{overflow-x:auto}
+.txt{border-collapse:collapse;font-size:15px;background:#fbfcf7;width:100%}
+.txt th,.txt td{border:1px solid var(--line);padding:5px 9px;text-align:left;white-space:nowrap}
+.txt th{background:#e6efe0;font-size:13px}
+.txn{font-size:14px;color:#55695b;margin:8px 0 0}
+@media(max-width:560px){.txl{grid-template-columns:1fr}.txl dt{margin-top:6px}}
