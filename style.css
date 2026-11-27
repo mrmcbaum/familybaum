@@ -426,3 +426,9 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 /* family page link in the descendants tree */
 .dfam{margin-left:10px;font-size:13px;font-weight:700;color:var(--moss);text-decoration:none;border:1px solid var(--moss);border-radius:999px;padding:1px 10px;white-space:nowrap}
 .dfam:hover{background:var(--moss);color:#fff}
+
+/* parents' names link back to their family page */
+.parents a.plink{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--moss) 55%,transparent);text-underline-offset:3px}
+.parents a.plink:hover,.parents a.plink:focus-visible{color:var(--moss);text-decoration-color:var(--moss)}
+.couple1{display:grid;grid-template-columns:minmax(0,560px);justify-content:center}
+.couple1 .card{text-align:center}

@@ -22,6 +22,7 @@ async function tryKey(raw) {
       const fig = m.querySelector('.gabanner figure'), bar = document.querySelector('.bar .wrap');
       if (fig && bar) { bar.classList.add('withpic'); bar.appendChild(fig); m.querySelector('.gabanner').remove(); }
       document.getElementById('gate').hidden = true;
+      if (location.hash) { const t = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (t) setTimeout(() => t.scrollIntoView(), 50); }
       return true;
     } catch (_) {}
   }
