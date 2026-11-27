@@ -381,3 +381,10 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .zt:checked+.zl img,.clip .zt:checked+.cimg img{width:auto;height:auto;max-width:100%;max-height:calc(100vh - 32px);object-fit:contain}
 .zt:focus-visible+.zl{outline:3px solid var(--moss);outline-offset:2px}
 .galgrid .gp .zl{border-radius:3px;overflow:hidden}
+.fan a.fanlink tspan[font-weight="700"]{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+.mystoggle{margin:18px 0 0}
+.mystoggle>summary{cursor:pointer;list-style:none;text-align:center;font-weight:700;color:var(--moss);font-size:18px;padding:12px 18px;border:1.5px solid #e2d18a;background:#fbf6df;border-radius:10px;max-width:640px;margin:0 auto}
+.mystoggle>summary::-webkit-details-marker{display:none}
+.mystoggle>summary::after{content:" \25BE"}
+.mystoggle[open]>summary::after{content:" \25B4"}
+.mystoggle[open]>summary{margin-bottom:16px}
