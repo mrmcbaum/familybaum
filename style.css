@@ -374,3 +374,10 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .fan a.fanlink:hover path,.fan a.fanlink:focus path{filter:brightness(.92);stroke-width:2.6}
 .fan a.fanlink:hover text,.fan a.fanlink:focus text{text-decoration:underline}
 .fan a.fanlink:focus{outline:none}
+/* tap-to-enlarge without scripts (private pages) */
+.zt{position:absolute;opacity:0;pointer-events:none;width:1px;height:1px}
+.zl{display:block;cursor:zoom-in}
+.zt:checked+.zl{position:fixed;inset:0;z-index:1000;margin:0;padding:16px;border-radius:0;background:rgba(12,24,17,.93);display:flex;align-items:center;justify-content:center;cursor:zoom-out;overflow:auto}
+.zt:checked+.zl img,.clip .zt:checked+.cimg img{width:auto;height:auto;max-width:100%;max-height:calc(100vh - 32px);object-fit:contain}
+.zt:focus-visible+.zl{outline:3px solid var(--moss);outline-offset:2px}
+.galgrid .gp .zl{border-radius:3px;overflow:hidden}
