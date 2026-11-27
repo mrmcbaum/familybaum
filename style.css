@@ -343,3 +343,4 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .clip .ctext p:not(.csrc){margin:0 0 10px}
 @media(max-width:700px){.clip{grid-template-columns:minmax(0,1fr)}}
 .soonbox{max-width:640px}.soonbox h2{margin-bottom:8px}
+.walls .side a{color:inherit;text-decoration:underline;text-decoration-thickness:1px}
