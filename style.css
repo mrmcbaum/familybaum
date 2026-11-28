@@ -478,3 +478,7 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .whybox h3{margin:0 0 10px;font:600 24px/1.2 Fraunces,Georgia,serif;color:var(--ink)}
 .whybox p{margin:8px 0;font-size:17px;line-height:1.55}
 .whybox b{color:var(--moss)}
+.bargroup{font:600 18px/1.2 Fraunces,Georgia,serif;color:var(--moss);margin:14px 0 -4px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+.bars .bargroup:first-child{margin-top:0}
+.row .nm small em{font-style:italic;color:#7a8a7e;font-size:13px}
+.row.empty .pct{color:#9aa79d}
