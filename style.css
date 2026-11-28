@@ -506,3 +506,5 @@ dialog.ethdlg::backdrop{background:rgba(20,40,28,.45)}
 .er i{width:12px;height:12px;border-radius:3px}.er b{font-weight:700;color:#173d2a}
 .er em{grid-column:2/4;height:5px;border-radius:3px;background:linear-gradient(90deg,var(--c) var(--w),#eef2ea var(--w))}
 @media(max-width:480px){.ethtop{flex-direction:column;text-align:center}}
+.ethmini{border:0;cursor:pointer;background:#e6eef8;color:#245a93;font:700 11px/1 "Source Sans 3",sans-serif;border-radius:999px;padding:4px 8px;margin-left:6px;vertical-align:2px}
+.ethmini:hover{background:#2f6fb3;color:#fff}.ethcard{margin:6px 0 2px}
