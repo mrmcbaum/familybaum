@@ -438,3 +438,4 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .infoask{margin:18px auto 0;max-width:760px;text-align:center;font-size:16px;color:var(--ink);background:#f3f7ee;border:1px dashed #a9c39a;border-radius:10px;padding:10px 16px}
 .infoask a{color:var(--moss);font-weight:700}
 .infoask.small{font-size:14px;margin:12px 0 0;padding:8px 10px;max-width:none}
+.parents .tentative{display:block;font-size:13px;color:var(--mute);margin-top:4px}
