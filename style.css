@@ -439,3 +439,36 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .infoask a{color:var(--moss);font-weight:700}
 .infoask.small{font-size:14px;margin:12px 0 0;padding:8px 10px;max-width:none}
 .parents .tentative{display:block;font-size:13px;color:var(--mute);margin-top:4px}
+/* ===== home page: centred text ===== */
+.home .herotext{margin-left:auto;margin-right:auto;text-align:center}
+.home .heronote{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}
+.home .heronote p{max-width:780px}
+.home .nav{justify-content:center}
+.home .band h2,.home .band h3,.home .band p,.home .band .lead,.home .band li,.home .band .card{text-align:center}
+.home .band .lead,.home .band>.wrap>p{max-width:780px;margin-left:auto;margin-right:auto}
+.home .band ol,.home .band ul{list-style-position:inside;padding-left:0}
+.home .figs div,.home .figs b,.home .figs span{text-align:center}
+.home .gatebox{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}
+.home .gatebox .pages{width:min(100%,560px)}
+.home .contact .wrap{text-align:center}
+/* ===== home page: tree reads downward — Gaylord & Arda, their parents, their grandparents ===== */
+.home .g1{grid-row:1}.home .g2{grid-row:2}.home .g3{grid-row:3}
+.home .g2::before,.home .g1::before{content:"";position:absolute;left:50%;right:auto;top:auto;bottom:-18px;height:18px;border:0;border-left:2px solid #173d2a66;border-radius:0}
+.home .g2::after,.home .g1::after{content:"";position:absolute;left:25%;right:25%;top:auto;bottom:-36px;height:18px;border:2px solid #173d2a66;border-bottom:0;border-radius:8px 8px 0 0}
+@media(max-width:760px){
+.home .ftree{grid-template-columns:minmax(0,1fr)!important;row-gap:18px!important}
+.home .slot{grid-column:1!important;grid-row:auto!important}
+.home .g1{order:1!important}.home .g2.p1{order:2!important}.home .g3.p1{order:3!important}.home .g3.p2{order:4!important}
+.home .g2.p2{order:5!important}.home .g3.p3{order:6!important}.home .g3.p4{order:7!important}
+.home .g2::before,.home .g1::before,.home .g2::after,.home .g1::after,.home .g2.p2 .cp::after{display:none!important}
+.home .g3 .cp,.home .g2 .cp,.home .g1 .cp{width:min(100%,380px)}
+}
+/* link labels on the tree */
+.cplink .cp figcaption::after{content:"Private Family Page →"}
+.cplink.open .cp figcaption::after{content:"Family Page →"}
+.home .hero p,.home .clickhint{text-align:center}
+.home #tree .who,.home #tree .yrs,.home #tree .gp,.home #tree .ggp,.home #tree .wall,.home #tree .side,.home #tree .card{text-align:center}
+.home #photos .album{justify-content:center;justify-items:center}
+.home #photos .album{display:flex;flex-wrap:wrap;gap:20px}
+.home #photos .album figure{max-width:340px;width:100%}
+.home #photos figcaption{text-align:center}
