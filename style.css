@@ -490,3 +490,19 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .ways .guides{line-height:1.2}.ways .guides a.pdfbtn{margin:6px 3px 0;padding:7px 14px;font-size:15px}
 .slot .parentof{margin:2px 0 8px;text-align:center;font:600 13px/1.25 "Source Sans 3",sans-serif;letter-spacing:.03em;text-transform:uppercase;color:#4f8a3c}
 .ways .small{font-size:14px;color:#55695b;margin-top:6px}
+
+button.dtest.eth{border:0;cursor:pointer;background:#2f6fb3;font-family:inherit}button.dtest.eth:hover{background:#245a93}
+dialog.ethdlg{border:0;border-radius:16px;padding:24px 26px 20px;width:min(560px,94vw);max-height:88vh;overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.3);color:var(--ink,#1d2b22)}
+dialog.ethdlg::backdrop{background:rgba(20,40,28,.45)}
+.ethdlg h3{margin:0;font-family:Fraunces,Georgia,serif;color:#173d2a;font-size:24px}.ethsub{margin:2px 0 14px;color:#55695b;font-size:14px}
+.ethx{position:absolute;top:10px;right:14px;border:0;background:none;font-size:28px;line-height:1;cursor:pointer;color:#55695b}
+.ethtop{display:flex;gap:18px;align-items:center;margin-bottom:12px}
+.ethdonut{flex:none;width:130px;height:130px;border-radius:50%;display:grid;place-items:center;position:relative}
+.ethdonut span{width:78px;height:78px;border-radius:50%;background:#fff;display:grid;place-items:center;font:700 24px/1 Fraunces,Georgia,serif;color:#173d2a;text-align:center}
+.ethdonut small{display:block;font:600 11px "Source Sans 3",sans-serif;color:#55695b;margin-top:-18px}
+.ethnote{margin:0;font-size:13.5px;color:#55695b;line-height:1.45}
+.ethlist h4{display:flex;justify-content:space-between;margin:14px 0 4px;padding-bottom:3px;border-bottom:1px solid #dfe7da;font:700 15px "Source Sans 3",sans-serif;color:#173d2a}
+.er{display:grid;grid-template-columns:12px 1fr auto;gap:2px 10px;align-items:center;font-size:14.5px;padding:3px 0}
+.er i{width:12px;height:12px;border-radius:3px}.er b{font-weight:700;color:#173d2a}
+.er em{grid-column:2/4;height:5px;border-radius:3px;background:linear-gradient(90deg,var(--c) var(--w),#eef2ea var(--w))}
+@media(max-width:480px){.ethtop{flex-direction:column;text-align:center}}

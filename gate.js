@@ -60,3 +60,10 @@ document.addEventListener('click', e => {
   const x = len; put(`xref\n0 6\n0000000000 65535 f \n${offs.slice(1).map(o => String(o).padStart(10, '0') + ' 00000 n \n').join('')}trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n${x}\n%%EOF`);
   window.open(URL.createObjectURL(new Blob(parts, { type: 'application/pdf' })), '_blank');
 });
+
+// ancestral-region pop-ups on "DNA tested" badges
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-eth]'); if (!b) return; e.preventDefault(); e.stopPropagation();
+  const d = document.getElementById(b.dataset.eth); if (d && d.showModal) d.showModal();
+}, true);
+document.addEventListener('click', e => { if (e.target.matches && e.target.matches('dialog.ethdlg')) e.target.close(); });
