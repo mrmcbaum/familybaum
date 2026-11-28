@@ -487,3 +487,4 @@ h3{font-size:20px;line-height:1.2;margin:0 0 6px}
 .ways .card a{color:#2f6b3a;font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .ways .card a.pdfbtn{display:inline-block;background:#2f6b3a;color:#fff;text-decoration:none;padding:9px 18px;border-radius:999px;font-weight:700;line-height:1.2}
 .ways .card a.pdfbtn:hover{background:#245530}
+.ways .guides{line-height:1.2}.ways .guides a.pdfbtn{margin:6px 3px 0;padding:7px 14px;font-size:15px}
